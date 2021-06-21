@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "resolveJsonModule": true,
     "target": "ES2016",
     "module": "commonjs",
-    "jsx": "react",                    
+    "jsx": "react",
     "outDir": "./build",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
-    "noImplicitThis": true,            
-    "noImplicitReturns": true,         
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
     "moduleResolution": "node",
-    "rootDirs": [
-      "./src"
-    ],
+    "rootDirs": ["./src"],
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true 
+    "forceConsistentCasingInFileNames": true
   }
 }

@@ -1,19 +1,19 @@
-import React, { ReactNode }from 'react';
-import { Box, Text } from 'ink';
-import InkSpinner from 'ink-spinner';
+import React, { ReactNode } from 'react'
+import { Box, Text } from 'ink'
+import InkSpinner from 'ink-spinner'
 
 type Props = {
-  children?: ReactNode,
+  children?: ReactNode
 }
 
 const Spinner = (props: Props) => (
-  <Box> 
-    <Text color='cyanBright'>
-      <InkSpinner type='dots' />
+  <Box>
+    <Text color="cyanBright">
+      <InkSpinner type="dots" />
       &nbsp;
     </Text>
-    { props.children }
+    {props.children}
   </Box>
 )
 
-export default Spinner;
+export default Spinner
