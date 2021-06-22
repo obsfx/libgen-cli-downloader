@@ -102,7 +102,7 @@ export const findDownloadMirror = async (
 
   const entries: Entry[] = getEntries(document)
 
-  return entries[0].mirror
+  return entries[0] ? entries[0].mirror : null
 }
 
 export const findMD5s = async (
